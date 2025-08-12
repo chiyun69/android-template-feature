@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">template-feature</string>
+    
+    <!-- Template Feature Module Strings -->
+    <string name="template_feature_title">Template Features</string>
+    <string name="template_feature_search_hint">Search features…</string>
+    <string name="template_feature_active_only">Active Only</string>
+    <string name="template_feature_all_features">All Features</string>
+    <string name="template_feature_refresh">Refresh</string>
+    <string name="template_feature_create">Create Feature</string>
+    <string name="template_feature_edit">Edit</string>
+    <string name="template_feature_delete">Delete</string>
+    <string name="template_feature_save">Save</string>
+    <string name="template_feature_cancel">Cancel</string>
+    
+    <!-- Feature Details -->
+    <string name="template_feature_title_label">Title</string>
+    <string name="template_feature_description_label">Description</string>
+    <string name="template_feature_status_label">Status</string>
+    <string name="template_feature_active">Active</string>
+    <string name="template_feature_inactive">Inactive</string>
+    <string name="template_feature_created_at">Created: %1$s</string>
+    
+    <!-- Empty States -->
+    <string name="template_feature_empty_title">No features available</string>
+    <string name="template_feature_empty_subtitle">Tap the + button to create your first feature</string>
+    <string name="template_feature_empty_search">No features found for "%1$s"</string>
+    
+    <!-- Error Messages -->
+    <string name="template_feature_error_loading">Error loading features</string>
+    <string name="template_feature_error_saving">Error saving feature</string>
+    <string name="template_feature_error_deleting">Error deleting feature</string>
+    <string name="template_feature_error_syncing">Error syncing data</string>
+    <string name="template_feature_error_network">Network error</string>
+    <string name="template_feature_error_unknown">Unknown error occurred</string>
+    <string name="template_feature_retry">Retry</string>
+    
+    <!-- Content Descriptions -->
+    <string name="template_feature_cd_back">Navigate back</string>
+    <string name="template_feature_cd_more_options">More options</string>
+    <string name="template_feature_cd_search">Search</string>
+    <string name="template_feature_cd_filter">Filter</string>
+    <string name="template_feature_cd_add">Add new feature</string>
+</resources>

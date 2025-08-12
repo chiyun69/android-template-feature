@@ -1,0 +1,6 @@
+com.example.sampleapp.test.sample-app-core-1.6.1-0 /Users/czy/.gradle/caches/8.11.1/transforms/2036d3b18d57645981be88f085db580b/transformed/core-1.6.1/res
+com.example.sampleapp.test.sample-app-tracing-1.2.0-1 /Users/czy/.gradle/caches/8.11.1/transforms/93996e486cda023568ec217d89c75562/transformed/tracing-1.2.0/res
+com.example.sampleapp.test.sample-app-androidTest-2 /Users/czy/workspace/android/template/template-feature/sample-app/build/generated/res/resValues/androidTest/debug
+com.example.sampleapp.test.sample-app-mergeDebugAndroidTestResources-3 /Users/czy/workspace/android/template/template-feature/sample-app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.sampleapp.test.sample-app-mergeDebugAndroidTestResources-4 /Users/czy/workspace/android/template/template-feature/sample-app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.sampleapp.test.sample-app-debugAndroidTest-5 /Users/czy/workspace/android/template/template-feature/sample-app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

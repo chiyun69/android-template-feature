@@ -1,0 +1,20 @@
+/Users/czy/workspace/android/template/template-feature/sample-app/src/main/AndroidManifest.xml:19: Warning: Redundant label can be removed [RedundantLabel]
+            android:label="@string/app_name"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RedundantLabel":
+   When an activity does not have a label attribute, it will use the one from
+   the application tag. Since the application has already specified the same
+   label, the label on this activity can be omitted.
+
+/Users/czy/workspace/android/template/template-feature/sample-app/build.gradle.kts:59: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.example.modules:template-feature-api:1.0.12")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseTomlInstead":
+   If your project is using a libs.versions.toml file, you should place all
+   Gradle dependencies in the TOML file. This lint check looks for version
+   declarations outside of the TOML file and suggests moving them (and in the
+   IDE, provides a quickfix to performing the operation automatically).
+
+0 errors, 2 warnings

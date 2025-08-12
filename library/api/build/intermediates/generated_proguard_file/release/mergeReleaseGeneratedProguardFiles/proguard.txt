@@ -1,0 +1,4 @@
+-keep,allowobfuscation,allowshrinking class com.example.modules.template_feature.presentation.screens.detail.DetailViewModel
+-keep,allowobfuscation,allowshrinking class com.example.modules.template_feature.presentation.screens.detail.DetailViewModel
+-keep,allowobfuscation,allowshrinking class com.example.modules.template_feature.presentation.screens.main.MainViewModel
+-keep,allowobfuscation,allowshrinking class com.example.modules.template_feature.presentation.screens.main.MainViewModel

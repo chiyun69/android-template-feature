@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.example.modules.template_feature.presentation.screens.main.MainViewModel

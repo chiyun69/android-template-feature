@@ -1,0 +1,19 @@
+# Consumer ProGuard rules for Template Feature API Module
+# These rules will be applied when consumers use this library
+
+# Keep all public API classes and methods
+-keep public class com.example.modules.template_feature.api.** { *; }
+
+# Keep Hilt components that may be needed
+-keep class * extends dagger.hilt.android.internal.managers.ApplicationComponentManager
+-keep class * extends dagger.hilt.internal.ComponentEntryPoint
+
+# Obfuscate implementation packages completely while keeping them functional
+-keep,allowobfuscation,allowshrinking class com.example.modules.template_feature.data.** { *; }
+-keep,allowobfuscation,allowshrinking class com.example.modules.template_feature.domain.** { *; }
+-keep,allowobfuscation,allowshrinking class com.example.modules.template_feature.presentation.** { *; }
+-keep,allowobfuscation,allowshrinking class com.example.modules.template_feature.di.** { *; }
+-keep,allowobfuscation,allowshrinking class com.example.modules.template_feature.ui.** { *; }
+
+# Apply obfuscated package names to implementation classes
+-repackageclasses 'obfuscated'

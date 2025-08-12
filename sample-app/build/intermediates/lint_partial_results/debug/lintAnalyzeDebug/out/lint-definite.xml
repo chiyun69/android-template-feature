@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.9.1" type="incidents">
+
+    <incident
+        id="RedundantLabel"
+        severity="warning"
+        message="Redundant label can be removed">
+        <fix-attribute
+            description="Delete label"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="label"/>
+        <location
+            file="${:sample-app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="19"
+            column="13"
+            startOffset="731"
+            endLine="19"
+            endColumn="45"
+            endOffset="763"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for example-template-feature-api"
+            robot="true">
+            <fix-replace
+                description="Replace with exampleTemplateFeatureApi = &quot;1.0.12&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="exampleTemplateFeatureApi = &quot;1.0.12&quot;&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/workspace/android/template/template-feature/gradle/libs.versions.toml"
+                    startOffset="35"
+                    endOffset="35"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with example-template-feature-api = { module = &quot;com.example.modules:template-feature-api&quot;, version.ref = &quot;exampleTemplateFeatureApi&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="example-template-feature-api = { module = &quot;com.example.modules:template-feature-api&quot;, version.ref = &quot;exampleTemplateFeatureApi&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/workspace/android/template/template-feature/gradle/libs.versions.toml"
+                    startOffset="660"
+                    endOffset="660"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.example.template.feature.api"
+                robot="true"
+                replacement="libs.example.template.feature.api"
+                priority="0">
+                <range
+                    file="${:sample-app*projectDir}/build.gradle.kts"
+                    startOffset="1388"
+                    endOffset="1437"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:sample-app*projectDir}/build.gradle.kts"
+            line="59"
+            column="20"
+            startOffset="1388"
+            endLine="59"
+            endColumn="69"
+            endOffset="1437"/>
+    </incident>
+
+</incidents>
